@@ -1,0 +1,11 @@
+Crate a <footer> tag	
+Inside using a <p> tag, write out a simple copyright line
+
+	e.g.: Copyright 2015 Geekwise Academy. All rights reserved.
+
+personalize your work	
+
+
+Add two styles to the <footer>	
+	background-color: #303030	
+	color:	#fafafa
