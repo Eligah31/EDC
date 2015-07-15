@@ -1,0 +1,188 @@
+
+        /*global css*/
+            body {
+                font-family: sans-serif;
+                margin: 0;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+            }
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            .section-gray {
+                color: white;
+                background-color: #474747 ;
+
+            }
+            .section-white {
+                background-color: white;
+                color: #474747 ;
+            }
+
+            .section-orange {
+                background-color: #e18c44 ;
+                color: white;
+
+            }
+            .section h3 {
+                font-size: 200%;
+                text-transform: none;
+
+            }
+            .all-centered {
+                text-align: center;
+            }
+            /*element styles*/
+            #logo h1 {
+                color: white;
+                text-transform: uppercase;
+            }
+            #logo h2 {
+                color: #956339 ;
+                text-transform: uppercase;
+            }
+            #logo h3 {
+                color: #956339 ;
+                text-transform: lowercase;
+            }
+            h1, h2, h3 {
+                font-weight: 100;
+                margin: 0;
+                line-height: .8;                
+            }
+            h1 {
+                color:#fff;
+
+            }
+
+            #logo {
+                background-color: #e18c44 ;
+                float: left;
+                padding: 5px 10px;
+            }
+            
+            nav {
+                float: right;
+            }
+            nav li {
+                display: inline;
+                margin-left: 10px;
+                text-transform: uppercase;
+                font-size: 80%;
+                font-weight: 700;
+            }
+            nav a {
+                color: #303030 ;
+            }
+            #hero {
+                background-image: url("../img/bg_hr1.png"), url("../img/bg1.jpg"); 
+                background-position: bottom center,    center;
+                background-repeat: no-repeat;
+                padding-top: 150px;
+                padding-bottom: 150px;
+                 }
+            #hero h2 {
+                color:white;
+                font-size: 300%;
+                font-weight: 500%;
+                line-height: 1.2;
+                margin: 50px 0;
+                border-top: 1px solid white;
+            }
+            #hero h2::before {
+            	content: "";
+            	display: block;
+            	width: 100%;
+            	border-top: 5px solid green;
+
+            }
+            #hero h2::after {
+            	content: "stuff";
+            	width: 100%;
+            	border-bottom: 5px solid blue;
+            }
+            #hero a {
+                color: white;
+                display: inline-block;
+                padding: 15px 25px;
+                border: 3px solid white;
+            
+
+            }
+            .section {
+                    padding: 100px 0;
+            
+            }
+
+            .section p {
+                line-height: 2;
+            }
+            #events {
+            	background-image: url(../img/bg_hr2.png);
+            	background-position: top center;
+            	background-repeat: no-repeat;
+            	padding: 150px;
+            	padding-bottom: 0;
+
+
+            }
+            #events img {
+            	width: 16.666%;
+            	height: auto;	
+            	float: left;
+            }
+            #events div div {
+            	margin: 0px 0;
+            	padding-top: 0;
+
+            }
+            #events div div::after {
+            	content: "";
+            	display: block;
+            	clear: both;
+            }
+            #review > div {
+            	width: 50%;
+            	float: left;
+            }
+            #review img {
+            	width: 50%;
+            	float: right;
+            }
+            #review::after {content: "";display: block;clear: both;}
+            #review li {
+            	list-style: disc;
+
+            }
+            #review h4 {
+            	font-size: 25px;
+            }
+            #bolg li {
+            	width: 50%;
+            	float: left;
+            }
+            #blog img {
+                width: calc(50% - 10px);
+                height: 50%;
+            	border-radius: 50%;
+            	float: left;
+            	width: 25%;
+            	
+
+            }
+            #blog li p {
+            	float: right;
+            	width: 50%;
+            }
+            #blog ul::after 
+            #blog li::after{
+            	content: "";
+            	display: block;
+            	
+
+            }
