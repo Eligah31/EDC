@@ -1,0 +1,88 @@
+.clearfix,.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+main {
+	width: 75%;
+	float: left;
+}
+aside {
+	float: right;
+	width: 25%;
+	padding: 0 20px 0 10px;
+}
+nav li {
+	display: inline-block;
+	float: right;
+	color: white;
+	left: 20%;
+	text-decoration: none;
+	
+}
+body {
+	margin: 0;
+
+} 
+header {
+	background-color: hsla(200, 40%, 40%, 1);
+	padding: 20px 20px 20px 20px;
+	font-size: 200%;
+	margin: 0;
+}
+img {
+	padding: 10px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+#time1 {
+	float: right;
+}
+#time1 img {
+	float: left;
+	margin-left: 10px;
+}
+#time2 img {
+	float: left;
+	margin-right: 10px;
+
+}
+
+header {
+	font-size: 200%;
+}
+#bug {
+	float: right;
+}
+#other {
+	float: left;
+}
+footer {
+	color: hsl(0, 0%, 8%);
+	text-decoration: white;
+	padding: 20px;
+	font-size: 80%;
+}
+#hero a {
+	padding: 10px 20px;
+	border: 2px solid white;
+	background-color: hsla(200, 41%, 65%, .25);
+	color: hsla(200, 41%, 65%, .25);
+
+}
+div {
+	background-image: url("http://placehold.it/1000x300");
+	background-repeat: no-repeat;
+
+}
+h1 {
+	margin: 0;
+}

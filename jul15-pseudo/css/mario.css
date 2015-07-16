@@ -1,0 +1,66 @@
+#head {
+	width: 300px;
+	height: 235px;
+	margin: 25%;
+	background-color: hsl(0, 93%, 40%);
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+#spot {
+	width: 90px;
+	height: 140px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: -9%;
+	top: calc(30% - 37.5px);
+
+
+}
+#spot2 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: calc(46% - 37.5px);
+	top: calc(20% - 37.5px);
+	
+}
+#spot3 {
+	width: 90px;
+	height: 140px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	right: -12%;
+	top: calc(33% - 37.5px);
+}
+#body {
+	width: 178px;
+	height: 105px;
+	background-color: hsl(39, 78%, 70%);
+	border-radius: 20%;
+	top: 89%;
+	left: 35%;
+	position: absolute;
+	border-top-right-radius: 50% 30%;
+	border-top-left-radius: 50% 30%;
+	border-bottom-right-radius: 57% 46%;
+	border-bottom-left-radius: 46% 57%;
+	
+}
+pre {
+	height: 50%;
+	font-size: 70px;
+	line-height: 1;
+	color: hsl(43, 54%, 3%);
+	position: absolute;
+	top: 10px;
+	left: 35px;
+	margin: 0;
+}
+
