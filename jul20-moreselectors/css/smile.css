@@ -1,0 +1,35 @@
+#head{
+	background-color: yellow;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	position: absolute;
+}
+#eye1 {
+	width: 30px;
+	height: 30px;
+	top: 95px;
+	left: 110px;
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+}
+#eye2 {
+
+	width: 30px;
+	height: 30px;
+	top: 95px;
+	right: 110px;
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+}
+#mouth {
+	width: 250px;
+	height: 150px;
+	border-bottom: 10px solid black;
+	border-radius: 50%;
+	position: relative;
+	top: 130px;
+	left: 45px;
+}
