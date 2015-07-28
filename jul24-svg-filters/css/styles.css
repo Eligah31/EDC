@@ -1,0 +1,15 @@
+body {
+	width: 1000px;
+	height: 1000px;
+	background-color: skyblue;
+}
+#ugly {
+	width: 350px;
+	height: 350px;
+	border: 1px solid gray;
+	background-color: purple;
+	border-radius: 50px;
+}
+#pretty {
+	float: right;
+}

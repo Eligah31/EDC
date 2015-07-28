@@ -1,0 +1,17 @@
+svg {
+	background-color: skyblue;
+	margin: 30px;
+}
+.yellow {
+	fill: #ffcc00;
+
+}
+.green {
+	fill: green;
+}
+.white {
+	fill: white;
+}
+darkgreen {
+	fill: darkgreen;
+}
