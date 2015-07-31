@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-util": "^3.0.6"
+  },
+  "name": "jul31-iridium",
+  "description": "All files but package.json included in template\r Follow instruction for new projects:",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-util": "^3.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
