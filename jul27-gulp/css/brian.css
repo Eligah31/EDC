@@ -1,5 +1,5 @@
 li {
   display: inline-block;
-  top: 10px;
+  list-style-image: none;
   float: right;
 }

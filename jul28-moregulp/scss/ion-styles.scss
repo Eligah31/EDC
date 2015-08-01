@@ -1,0 +1,68 @@
+li {
+	display: inline-block;
+	padding: 5px;
+}
+ol {
+
+	list-style: none;
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 10px;
+}
+ul {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+.logos {
+	border: 2px solid gray; 
+}
+#ilogo {
+	text-decoration: none;
+	color: light gray;
+	font-size: 20px;
+
+}
+#hero {
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	padding: 100px;
+
+
+}
+#text {
+	display: inline-block;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+
+
+}
+button {
+	border: 1px solid gray;
+	background-color: lightblue;
+	border-radius: 5px;
+	padding: 20px;
+	
+}
+#learn {
+	background-color: transparent;
+
+}
+
+main {
+	margin-top: 100px;
+}
+#signup {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+}

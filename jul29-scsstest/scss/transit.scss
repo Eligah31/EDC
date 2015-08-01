@@ -1,0 +1,60 @@
+section {
+	background-image: url("../img/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+}
+li {
+	list-style: none;
+	display: inline-block;
+	color: gray;
+	position: relative;
+	padding: 10px;
+	right: 20px;
+}
+#sign {
+	border-radius: 10px;
+	padding: 3px;
+	font-weight: bold;
+	position: absolute;
+	right: 20px;
+	z-index: 100;
+	padding: 5px;
+
+
+}
+nav {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	z-index: 100;
+	padding: 20px;
+	top: 0;
+	
+}
+h1 {
+	font-size: 20px;
+	position: absolute;
+	z-index: 200;
+	margin-bottom: 0;
+	color: #fff;
+	left: 30px;
+}
+div:last-of-type {
+	position: relative;
+	text-align: center;
+	padding: 100px;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+

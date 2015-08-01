@@ -1,0 +1,56 @@
+@import "variable";
+@import "layout";
+@import "reset";
+
+body {
+	background-color: $main-color;
+	font-family: $font-stack;
+	margin: 0;
+}
+
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-image: url(http://www.metoffice.gov.uk/media/image/j/i/Cumulus_2.jpg);
+	background-size: 100%;
+	padding: $pad $halfpad $halfpad;
+	background-attachment: fixed;
+	h1, h2 {
+		margin: 0;
+	}
+	h2 {
+		text-transform: uppercase;
+		font-size: 80%;
+	}
+}
+footer {
+	background-color: $main-color-dark;
+	padding: $pad $halfpad;
+	h3 {
+			margin: 0;
+		}
+	a {
+		color: white;
+		text-decoration: none;
+
+	}
+}
+.post {
+	@extend .bubble;
+	border-bottom: 1px solid $main-color-light;
+	border-top: 2px solid $main-color-dark;
+	border-bottom-width: 10%;
+	&:first-child{
+		border-top: none;
+	}
+	&:last-child{
+		border-bottom: none;
+	}
+}
+.rightcol {
+	@extend .bubble;
+}
+

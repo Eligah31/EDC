@@ -1,5 +1,12 @@
+$main: hsla(100, 81%, 34%, 0.91);
+$main-lighter: lighten($main, 20);
+$main-dark: darken($main, 10);
+$main-darker: darken($main, 20);
+$main-comp: complement($main);
+$font: 11px;
 
-li {display: inline-block;
-	top: 10px;
+li {
+	display: inline-block;
+	list-style-image: none;
 	float: right;
-	 }
+}

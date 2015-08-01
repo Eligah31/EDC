@@ -1,0 +1,33 @@
+
+header {
+	background-color: hsl(14, 37%, 7%);
+	background-size: 100%;
+	padding: 15px;
+	border: 10px;
+	overflow: hidden;
+
+}
+#main-banner {
+	height: 450px;
+	background-image: url("../img/banner.jpg");
+}
+a {
+	list-style: none;
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	margin: 15px;
+	display: inline-block;
+
+}
+h1 {
+	color: white;
+	padding: 20px;
+	float: left;
+}
+#p1 {
+	float: left;
+}
+#p3 {
+	float:right;
+}
