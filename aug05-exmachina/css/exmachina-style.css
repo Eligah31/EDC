@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300|Roboto+Condensed:400,300,700);
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 300%;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 180%;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 150%;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 120%;
+}
+
+.content {
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+p {
+  line-height: 2;
+  font-weight: 300;
+}
+
+li {
+  padding: 15px 0;
+  list-style: none;
+  border-bottom: 1px solid gray;
+}
+li li:last-child {
+  border: none;
+}
+li li:last-child::before, li li:last-child::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+li li:last-child img {
+  float: left;
+  margin-right: 15px;
+}
+
+.row:first-of-type img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: underline;
+  color: #e95a3a;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+}
+
+.btn-lg {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-exmachina {
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #f2f2f2;
+  background-color: #e95a3a;
+  transition: all 250ms ease-in-out;
+}
+.btn-exmachina:hover {
+  background-color: #aa2f13;
+}
+
+.hero {
+  height: 350px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@madia screen and (max-width: 768px) {
+  a.btn {
+    display: block;
+  }
+}
+#row1 img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  background-color: #212121;
+  padding: 100px 0 25px;
+}

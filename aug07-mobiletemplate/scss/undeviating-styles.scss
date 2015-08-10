@@ -1,0 +1,28 @@
+#hero {
+	background-size: cover;
+	height: 500px;
+	background-image: url("../img/banner_720.jpg");
+	background-repeat: no-repeat;
+}
+a {
+	padding: 5px;
+	background-color: lightblue;
+	display: block;
+	width: 20%;
+}
+
+
+@media screen and (min-width: 768px) {
+	.div1 {
+	line-height: 2;
+	text-align: center;
+	div{
+		width: 33.33%;
+		float: left;
+		padding: 20px;
+		box-sizing: border-box;
+		line-height: 2;	
+		text-align: center;
+		}
+	}
+}

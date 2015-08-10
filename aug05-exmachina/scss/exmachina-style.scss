@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300|Roboto+Condensed:400,300,700);
+$main-orange: hsla(11, 80%, 57%, 1);
+$main-white: hsla(0, 0%, 95%, 1);
+$main-gray: hsla(0, 0%, 13%, 1);
+
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1, h2, h3, h4 {text-transform: uppercase; font-weight: 300}
+h1 {font-size: 300%; margin-bottom: 0;}
+h2 {font-size: 180%; margin-bottom: 40px;}
+h3 {font-size: 150%; margin-top: 0;}
+h4 {font-size: 120%;}
+.content {
+	padding:{
+		top: 100px;
+		bottom: 25px;
+	}
+	
+}
+p {
+	line-height: 2;
+	font-weight: 300;
+}
+li {
+	padding: 15px 0;
+	list-style: none;
+	border-bottom: 1px solid gray;
+	li:last-child {
+		border: none;
+		&::before, &::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		img {
+			float: left;
+			margin-right: 15px;
+		}
+	}
+}
+.row:first-of-type{
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+a {
+	text-decoration: underline;
+	color: $main-orange;
+}
+
+.btn {
+	border: none;
+	text-decoration: none;
+}
+.btn-lg {
+	padding: {
+		left: 20px;
+		right: 20px;
+	}
+}
+.btn-exmachina {
+	text-transform: uppercase;
+	margin-top: 30px;
+	color: $main-white;
+	background-color: $main-orange;
+	transition: all 250ms ease-in-out;
+	&:hover {
+		background-color: darken($main-orange, 20);
+	}
+}
+
+
+.hero{
+	height: 350px;
+	background: {
+		image: url("../img/banner.jpg");
+		size: cover;
+		position: center;
+		repeat: no-repeat;
+	}
+
+}
+@madia screen and (max-width: 768px){
+	a.btn {
+			display: block;
+	}
+}
+
+#row1 img {
+	width: 100%;
+	height: auto;
+}
+main {
+	background-color: $main-gray;
+	padding: 100px 0 25px;
+}
