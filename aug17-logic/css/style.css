@@ -1,0 +1,117 @@
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+.btn.btn-lg {
+  padding: 16px 32px;
+  font-size: 32px;
+  border-radius: 48px;
+}
+.btn.btn-sm {
+  padding: 4px 8px;
+  font-size: 8px;
+  border-width: 8px;
+  border-radius: 2px;
+  list-style: none;
+}
+
+section {
+  background-color: #202020;
+  color: #101010;
+  color: #909090;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  line-height: 3;
+  list-style: none;
+  padding-left: 20px;
+  border-width: 0 10px 0 0;
+  border-style: solid;
+}
+aside li:nth-of-type(1) {
+  background-color: #d9938c;
+  border-right: 10px solid #bf4a40;
+}
+aside li:nth-of-type(2) {
+  background-color: #d9998c;
+  border-right: 10px solid #bf5540;
+}
+aside li:nth-of-type(3) {
+  background-color: #d99f8c;
+  border-right: 10px solid #bf6040;
+}
+aside li:nth-of-type(4) {
+  background-color: #d9a68c;
+  border-right: 10px solid #bf6a40;
+}
+aside li:nth-of-type(5) {
+  background-color: #d9ac8c;
+  border-right: 10px solid #bf7540;
+}
+aside li:nth-of-type(6) {
+  background-color: #d9b38c;
+  border-right: 10px solid #bf8040;
+}
+aside li:nth-of-type(7) {
+  background-color: #d9b98c;
+  border-right: 10px solid #bf8a40;
+}
+aside li:nth-of-type(8) {
+  background-color: #d9bf8c;
+  border-right: 10px solid #bf9540;
+}
+aside li:nth-of-type(9) {
+  background-color: #d9c68c;
+  border-right: 10px solid #bf9f40;
+}
+aside li:nth-of-type(10) {
+  background-color: #d9cc8c;
+  border-right: 10px solid #bfaa40;
+}
+aside li:nth-of-type(11) {
+  background-color: #d9d28c;
+  border-right: 10px solid #bfb540;
+}
+aside li:nth-of-type(12) {
+  background-color: #d9d98c;
+  border-right: 10px solid #bfbf40;
+}
+aside li:nth-of-type(13) {
+  background-color: #d2d98c;
+  border-right: 10px solid #b5bf40;
+}
+aside li:nth-of-type(14) {
+  background-color: #ccd98c;
+  border-right: 10px solid #aabf40;
+}
+aside li:nth-of-type(15) {
+  background-color: #c6d98c;
+  border-right: 10px solid #9fbf40;
+}
+aside li:nth-of-type(16) {
+  background-color: #bfd98c;
+  border-right: 10px solid #95bf40;
+}
+aside li:nth-of-type(17) {
+  background-color: #b9d98c;
+  border-right: 10px solid #8abf40;
+}
+aside li:nth-of-type(18) {
+  background-color: #b3d98c;
+  border-right: 10px solid #80bf40;
+}
+aside li:nth-of-type(19) {
+  background-color: #acd98c;
+  border-right: 10px solid #75bf40;
+}
+aside li:nth-of-type(20) {
+  background-color: #a6d98c;
+  border-right: 10px solid #6abf40;
+}

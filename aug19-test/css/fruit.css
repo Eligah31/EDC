@@ -1,0 +1,18 @@
+body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div {
+  width: 30%;
+  height: 30vw;
+}
+
+div:nth-of-type(2)::before {
+  content: "a div";
+}
+
+div:nth-of-type(3)::before {
+  content: "a div";
+}

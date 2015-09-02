@@ -1,17 +1,18 @@
 body {
   background-image: url("../img/1757527.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
 }
 
 hgroup:hover {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
   opacity: 0;
   color: purple;
   transition: all 500ms ease-in-out;
@@ -19,6 +20,7 @@ hgroup:hover {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .container {
@@ -31,31 +33,26 @@ a {
   width: 100%;
   margin-right: 0;
 }
-.container ul {
+
+li {
+  list-style: none;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 15px;
-  list-style: none;
-  font-size: 24px;
-  margin: 5px;
-}
-.container li {
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 5px;
-  background-color: skyblue;
-  margin: 1px 20px auto 0;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn:hover {
-  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  list-style: none;
+  background-color: lightblue;
   padding: 10px 35px;
-  border: 1px solid transparent;
-  border-radius: 3px;
   transition: all 500ms ease-in-out;
 }
 
@@ -83,15 +80,25 @@ a {
   margin: 0 0 0 300px;
 }
 
-.pic {
-  text-align: center;
-}
-.pic img {
-  height: 250px;
-  width: 400px;
-  border-radius: 25%;
-}
+@media screen and (max-width: 768px) {
+  body {
+    border: 5px spotted green;
+    width: 100px;
+  }
 
+  .div1 {
+    text-align: center;
+  }
+
+  .pic {
+    text-align: center;
+  }
+  .pic img {
+    height: 250px;
+    width: 400px;
+    border-radius: 25%;
+  }
+}
 .bio img:hover {
   width: 75%;
   height: auto;

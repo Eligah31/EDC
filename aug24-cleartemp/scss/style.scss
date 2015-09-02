@@ -1,0 +1,73 @@
+body {
+	display: flex;
+	margin: 0;
+}
+section {
+	background-color: lightgray;
+}
+.container {
+	display: block;
+	width: 100%;
+	.navbar{
+		display: flex;
+		justify-content: center;
+		ol {
+			display: flex;
+			list-style: none;
+			margin: 0;
+
+			a {
+				text-decoration: none;
+			}
+			li {
+				padding: 20px 80px 20px 103px;
+				border: 1px solid gray;
+				background-color: white;
+				
+
+			}
+		}
+	}
+
+}
+h1 {
+	display: flex;
+}
+
+li:first-child{
+	border-bottom-left-radius: 10px;
+}
+li:last-child {
+	border-bottom-right-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+
+}
+
+
+
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	border: 1px soild gray;
+	border-radius: 10px;
+	height: 300px;
+	width: 1000px;
+	content: url("../img/page-1_slide1.jpg");
+	margin: 0;
+	border: 5px solid gray;
+
+
+}
+main {}

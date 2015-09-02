@@ -1,0 +1,39 @@
+header {
+  background-image: url("../img/great-white-up-close_6455_600x450.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+a {
+  box-sizing: border-box;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+  font-size: 50px;
+}
